@@ -1,0 +1,15 @@
+{
+  "name": "ibc-cosmos-ethereum-test",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@srdtrk/solidity-ibc-eureka": "github:srdtrk/solidity-ibc-eureka",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.2",
+    "@cosmos/sp1-ics07-tendermint": "github:cosmos/sp1-ics07-tendermint#0c68154522413f20e078726014d753bbedcdbd2b"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
